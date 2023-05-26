@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <!-- Link to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet" />
+
+    <!-- Set meta tags for character set and viewport -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Set title for webpage -->
+    <title> to make professional cook</title>
+
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="meals.css" />
+
+    <!-- Link to Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/d42a0e31b8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navigation bar section -->
+    <div id="navbar">
+        <a href="index.html">
+            <div class="top-logo">Food Finder
+                <hr />
+            </div>
+        </a>
+        <div class="side-drawer">
+            <div id="toggle-sidebar">
+                <i class="fa-solid fa-bars"></i>
+                <span id="total-counter">0</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main content section -->
+    <div id="main">
+        <!-- Sidebar section -->
+        <div id="sidebar">
+            <div class="top_gap"></div>
+            <hr />
+            <div class="title small">
+                Favourable Items
+            </div>
+            <hr />
+            <div id="fav">
+                
+            </div>
+        </div>
+
+        <!-- Flex box container for main content -->
+        <div id="flex-box">
+            <div class="container">
+                <!-- Header section -->
+                <div class="header">
+                    <div class="title">
+                        Recipe Finder
+                    </div>
+                </div>
+
+                <!-- Search bar section -->
+                <div class="" id="search-bar">
+                    <div class="icon">
+                        <i class="fa-solid fa-search "></i>
+                    </div>
+                    <div class="new-search-input">
+                        <form onkeyup="showMealList()">
+                            <input id="search-input" type="text" placeholder="Search food, recipe" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards holder section for displaying meals -->
+            <div id="cards-holder" class="">
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="meals.js"></script>
+</body>
+</html>
